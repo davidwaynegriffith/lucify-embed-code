@@ -1,0 +1,48 @@
+{
+  "name": "lucify-embed-code",
+  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Embed code generator for iframe-resizer",
+  "main": "lib/embed-code.js",
+  "scripts": {
+    "start": "gulp",
+    "test": "exit 0",
+    "build-embed": "webpack -p",
+    "build-embed-code": "babel --presets es2015,stage-0 -d lib/. src/embed-code",
+    "build": "npm run build-embed && npm run build-embed-code",
+    "prepublish": "npm run build"
+  },
+  "engines": {
+    "node": "^4.2.2"
+  },
+  "homepage": "https://gitub.com/lucified/lucify-embed-code",
+  "contributors": [
+    {
+      "name": "Juho Ojala",
+      "email": "juho@lucify.com"
+    },
+    {
+      "name": "Ville Saarinen",
+      "email": "ville.saarinen@lucify.com"
+    },
+    {
+      "name": "Ville Väänänen",
+      "email": "ville@lucify.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucified/lucify-embed-code.git"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.8.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.12.14"
+  },
+  "dependencies": {
+    "iframe-resizer": "^2.8.10"
+  }
+}
