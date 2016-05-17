@@ -1,13 +1,11 @@
 
 # Embed code generator for iframe-resizer
 
+This package contains utilities for generating embed codes for embedding content from external websites with auto-resizing iframes based on [`iframe-resizer`](https://github.com/davidjbradshaw/iframe-resizer) version `2.8.10`
+
 ## Pre-release notice
 
 This is a pre-release of a package belonging to the Lucify platform. It has been published merely to satisfy dependencies of other packages. Any APIs may change without notice.
-
-## About
-
-This package contains utilities for generating embed codes for embedding content from external websites with auto-resizing iframes based on [`iframe-resizer`](https://github.com/davidjbradshaw/iframe-resizer) version `2.8.10`
 
 ## Generation of embed codes
 
