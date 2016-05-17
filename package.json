@@ -1,7 +1,7 @@
 {
   "name": "lucify-embed-code",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Embed code generator for iframe-resizer",
   "main": "lib/embed-code.js",
   "scripts": {
