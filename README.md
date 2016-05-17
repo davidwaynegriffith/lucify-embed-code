@@ -1,7 +1,7 @@
 
 # Embed code generator for iframe-resizer
 
-This package contains utilities for generating embed codes for embedding content from external websites with auto-resizing iframes based on [`iframe-resizer`](https://github.com/davidjbradshaw/iframe-resizer) version `2.8.10`
+Generates embed codes for embedding content from external websites with auto-resizing iframes based on [`iframe-resizer`](https://github.com/davidjbradshaw/iframe-resizer) version `2.8.10`
 
 ## Pre-release notice
 
