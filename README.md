@@ -21,7 +21,7 @@ The advantage of this type of embed code is that it does not require the executi
 
 Generate the embed code with:
 ```js
-import { embedCode } from 'lucify-embed-utils'
+import embedCode from 'lucify-embed-code'
 // embed iframe url for Finnish version
 const iFrameUrl = 'http://www.lucify.com/embed/asylum-seekers-in-europe/?fi';
 const code = embedCode.getIFrameEmbedCodeWithInlineResize(iFrameUrl);
@@ -37,7 +37,7 @@ This type of embed code requires [`iframeResizer.min.js`] https://github.com/dav
 
 Generate the embed code with:
 ```js
-import { embedCode } from 'lucify-embed-utils'
+import embedCode from 'lucify-embed-code'
 
 // embed baseUrl, pointing to directory with resize.js
 const baseUrl = 'http://www.lucify.com/embed/asylum-seekers-in-europe/';
@@ -55,7 +55,7 @@ This type of embed code requires a bundled version of [`embed.js`](https://githu
 
 Generate the embed code with:
 ```js
-import { embedCode } from 'lucify-embed-utils'
+import embedCode from 'lucify-embed-code'
 
 // embed baseUrl, pointing to directory with embed.js
 const baseUrl = 'http://www.lucify.com/embed/asylum-seekers-in-europe/';
